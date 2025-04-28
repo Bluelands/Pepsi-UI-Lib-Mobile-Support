@@ -2041,8 +2041,8 @@ function library:CreateWindow(options, ...)
 	local ScreenGUI = Instance.new("ScreenGui", game.CoreGui)
 	local Frame = Instance.new("Frame", ScreenGUI)
 	Frame.BackgroundTransparency = 1
-	Frame.Size = UDim2.fromScale(0.075, 0.158)
-	Frame.Position = UDim2.fromScale(0.462, 0.063)
+	Frame.Size = UDim2.fromScale(0.051, 0.106)
+	Frame.Position = UDim2.fromScale(0.5, 0)
 	local ImageButton = Instance.new("ImageButton", Frame)
 	ImageButton.BackgroundTransparency = 1
 	ImageButton.Size = UDim2.fromScale(1, 1)
