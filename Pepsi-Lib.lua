@@ -2037,7 +2037,7 @@ function library:CreateWindow(options, ...)
 	colored[1 + #colored] = {main, "BorderColor3", "outerBorder"}
 	main.Position = UDim2.fromScale(0.5, 0.5)
 	main.Size = UDim2.fromScale(0.4, 0.8)
-	Instance.new("UIAspectRatioConstraint", main).AspectRatio = 1
+	Instance.new("UIAspectRatioConstraint", main)
 	makeDraggable(main, main)
 	mainBorder.Name = "mainBorder"
 	mainBorder.Parent = main
